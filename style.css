@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.d1{
+    width: 100%;
+    padding: 0px 40px;
+}
+.list{
+    list-style: none;
+}
+.f-sp{
+    font-family: "Playwrite HR Lijeva", cursive;
+}
+.h1-s{
+    font-size: 60px;
+}
+.img-d1{
+    height: 700px;
+    background-image: url(https://images.pexels.com/photos/8798104/pexels-photo-8798104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.h1-d1{
+    height: 550px;
+}
+.btn-d1{
+    border: none;
+    padding: 5px;
+    background-color: blue;
+}
+.cur-d1{
+    margin-bottom: 270px;
+}
+.cur-h1{
+    text-shadow: 2px 2px 2px white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 11rem 10rem 13rem;
+}
+.grid-d1{
+    text-align: center;
+    padding: 5px;
+}
+.item5{
+    grid-column: 2;
+  grid-row: 2 / span 2;
+}
+.card-d1:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-d1:hover{
+    background-color: brown;
+}
+.ho-d2{
+    width: 230px;
+    height: 250px;
+    background-image: url(https://images.pexels.com/photos/12112985/pexels-photo-12112985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.d2{
+    width: 230px;
+    height: 250px;
+    background-color: rgba(53, 53, 109, 0.567);
+    display: none;
+}
+.ho-d2:hover .d2{
+    display: block;
+}
+.ho-d1:hover{
+    background-color: rgba(45, 45, 235, 0.512);
+    background-image: none;
+}
+.img1{
+    background-image: url(https://images.pexels.com/photos/2862204/pexels-photo-2862204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.img2{
+    background-image: url(https://images.pexels.com/photos/2863221/pexels-photo-2863221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.img3{
+    background-image: url(https://images.pexels.com/photos/925069/pexels-photo-925069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+@media(max-width:768px){
+    .frame{
+        width: 400px;
+        height: 200px;
+    }
+    .grid{
+        display: none;
+    }
+}
+@media(max-width:480px){
+    .frame{
+        width: 200px;
+        height: 100px;
+    }
+}
